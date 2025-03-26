@@ -1,0 +1,113 @@
+/* Register.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7fafc;
+    padding: 0 16px;
+  }
+  
+  .register-form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ed8936; /* Orange color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #1a202c; /* Dark text */
+  }
+  
+  .register-error {
+    color: #e53e3e; /* Red */
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .register-label {
+    font-size: 14px;
+    font-weight: medium;
+    color: #4a5568; /* Gray text */
+  }
+  
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #2d3748;
+  }
+  
+  .register-input:focus {
+    border-color: #ed8936; /* Orange */
+    outline: none;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3182ce; /* Blue */
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: semi-bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #2b6cb0; /* Darker Blue */
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .register-heading {
+      font-size: 20px;
+    }
+  
+    .register-form-container {
+      padding: 20px;
+      width: 100%;
+      max-width: none;
+      border-radius: 8px;
+      box-shadow: none;
+    }
+  
+    .register-input {
+      font-size: 16px;
+    }
+  
+    .register-button {
+      padding: 14px;
+      font-size: 16px;
+    }
+  }
+  
+  /* Tablet Responsiveness */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .register-heading {
+      font-size: 22px;
+    }
+  
+    .register-button {
+      padding: 14px;
+      font-size: 15px;
+    }
+  }
+  

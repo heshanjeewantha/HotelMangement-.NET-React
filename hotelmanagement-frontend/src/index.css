@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-align: center;
+  }
+
+@import "tailwindcss";
+
+@import "tailwindcss/preflight";
+@tailwind utilities;
+      
